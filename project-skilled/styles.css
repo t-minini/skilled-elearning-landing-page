@@ -1,0 +1,191 @@
+:root {
+  --color1-light-purple: #666ca3;
+  --color2-dark-blue: #13183f;
+  --color3-grey: #83869a;
+  --color4-dark-pink: #f74780;
+  --color5-light-pink: #ffa7c3;
+  --color6-white: #ffffff;
+  --color1-gradient-pink: #f02aa6;
+  --color2-gradient-orange: #ff6f48;
+  --color3-gradient-purple: #4851ff;
+  --color4-gradient-blue: #f0f1ff;
+}
+
+html {
+  min-height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%; /* base font size to 10px, to facilitate using REM unit */
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+nav {
+  padding: 2.4rem 16.4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 2.768rem;
+}
+
+.btn-nav {
+  height: 5.6rem;
+  width: 16.7rem;
+  background-color: var(--color2-dark-blue);
+  color: var(--color6-white);
+  border: none;
+  border-radius: 2.8rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.btn-nav:hover {
+  cursor: pointer;
+  background-color: var(--color1-light-purple);
+}
+
+.top-section {
+  padding: 0 16.4rem 0 16.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.maximize {
+  width: 45.7rem;
+  height: 35.9rem;
+  margin-top: 17.2rem;
+  margin-bottom: 22.6rem;
+}
+
+.maximize h1 {
+  font-size: 5.6rem;
+  line-height: 7.056rem;
+  color: var(--color2-dark-blue);
+  font-weight: 800;
+  margin-bottom: 2.9rem;
+}
+
+.maximize p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: var(--color3-grey);
+  font-weight: 500;
+  margin-right: 2.63%;
+  margin-bottom: 4rem;
+}
+
+.maximize button {
+  width: 16.7rem;
+  height: 6.3rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: var(--color6-white);
+  font-weight: 700;
+  border: none;
+  border-radius: 3.15rem;
+  background: linear-gradient(
+    var(--color2-gradient-orange),
+    var(--color1-gradient-pink)
+  );
+}
+
+.maximize button:hover {
+  cursor: pointer;
+  background: linear-gradient(
+      0deg,
+      #ffffff80,
+      #ffffff80
+    ),
+    linear-gradient(180deg, var(--color2-gradient-orange) 0%, var(--color1-gradient-pink) 100%);
+}
+
+.image img {
+  height: 94rem;
+  /* width: 99.163rem; */
+  position: absolute;
+  top: -100px;
+  right: -280px;
+  z-index: -1;
+}
+
+.bottom-section {
+  padding: 2.4rem 16.4rem 12rem 16.4rem;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  background: linear-gradient(
+    var(--color6-white) 0%,
+    var(--color4-gradient-blue) 100%
+  );
+  /* background-color: black; */
+}
+
+.card {
+  width: 35rem;
+  height: 32.2rem;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 6.4rem 3.2rem 4rem 3.2rem;
+}
+
+.icon {
+  position: absolute;
+  bottom: -150px;
+}
+
+.first-card {
+  background: linear-gradient(
+    var(--color2-gradient-orange),
+    var(--color1-gradient-pink)
+  );
+}
+
+.first-card h2 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-weight: 800;
+  color: var(--color6-white);
+}
+
+.course-card {
+  background-color: var(--color6-white);
+}
+
+.course-card h3 {
+  font-size: 2.4rem;
+  line-height: 3.024rem;
+  font-weight: 800;
+  color: var(--color2-dark-blue);
+  margin-bottom: 2.4rem;
+}
+
+.course-card p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  color: var(--color3-grey);
+}
+
+.course-card button {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+  color: var(--color1-gradient-pink);
+  border: none;
+  background: transparent;
+}
