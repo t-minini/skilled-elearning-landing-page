@@ -52,7 +52,7 @@ nav img {
   color: var(--color6-white);
   border: none;
   border-radius: 2.8rem;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.8rem;
 }
 
@@ -62,7 +62,7 @@ nav img {
 }
 
 .top-section {
-  padding: 0 16.4rem 3rem 16.4rem;
+  padding: 0 16.4rem;
   display: flex;
   justify-content: space-between;
 }
@@ -145,7 +145,6 @@ nav img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: red;
 }
 
 .card {
@@ -158,6 +157,9 @@ nav img {
   margin-bottom: 6rem;
   border-radius: 1.5rem;
   padding: 0 3.2rem 4rem 3.2rem;
+  display: grid;
+  grid-template-rows: .2fr 0.3fr 1.5fr;
+  justify-items: start;
 }
 
 .icon {
@@ -200,12 +202,16 @@ nav img {
 }
 
 .course-card button {
+  /* height: 10%; */
+  position:;
+  /* bottom: -10px; */
   font-size: 1.8rem;
   line-height: 2.8rem;
   font-weight: 700;
   color: var(--color1-gradient-pink);
   border: none;
   background: transparent;
+  /* padding-top: calc(-10% + 95px); */
 }
 
 .course-card button:hover {
@@ -233,7 +239,7 @@ footer {
   color: var(--color6-white);
   border: none;
   border-radius: 2.8rem;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.8rem;
 }
 
