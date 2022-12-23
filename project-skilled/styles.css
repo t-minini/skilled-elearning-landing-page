@@ -213,10 +213,10 @@ nav img {
 }
 
 footer {
+  background-color: var(--color2-dark-blue);
   padding: 0 16.4rem;
   width: 100%;
   height: 12rem;
-  background-color: var(--color2-dark-blue);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -325,15 +325,6 @@ footer {
     margin-bottom: 2.4rem;
   }
 
-  .course-card button {
-    font-size: 1.8rem;
-    line-height: 2.8rem;
-    font-weight: 700;
-    color: var(--color1-gradient-pink);
-    border: none;
-    background: transparent;
-  }
-
   footer {
     padding: 0 3.5rem;
   }
@@ -399,7 +390,7 @@ footer {
     padding: 0 2rem 4rem 3.2rem;
   }
 
-  .first-card  {
+  .first-card {
     min-height: 12rem;
     max-height: 12rem;
   }
