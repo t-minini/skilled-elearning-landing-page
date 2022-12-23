@@ -13,9 +13,9 @@ Users should be able to:
 
 ### Screenshots
 
-![desktop](/project-skilled/assets/screenshot-desktop.png)
-![ipad](/project-skilled/assets/screenshot-ipad.png)
-![iphone](/project-skilled/assets/screenshot-mobile.png)
+![desktop](./assets/screenshot-desktop.png)
+![ipad](./assets/screenshot-ipad.png)
+![iphone](./assets/screenshot-mobile.png)
 
 ### Links
 
