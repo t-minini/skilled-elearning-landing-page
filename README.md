@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL - [Link here!](https://your-solution-url.com)
+- Solution URL - [Link here!](https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-dgiwIXNBH6)
 - Live Site URL - [Link here!](https://t-minini.github.io/skilled-elearning-landing-page/)
 
 ## My process
