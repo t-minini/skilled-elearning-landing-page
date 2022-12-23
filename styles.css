@@ -202,16 +202,12 @@ nav img {
 }
 
 .course-card button {
-  /* height: 10%; */
-  position:;
-  /* bottom: -10px; */
   font-size: 1.8rem;
   line-height: 2.8rem;
   font-weight: 700;
   color: var(--color1-gradient-pink);
   border: none;
   background: transparent;
-  /* padding-top: calc(-10% + 95px); */
 }
 
 .course-card button:hover {
