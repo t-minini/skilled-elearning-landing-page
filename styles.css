@@ -145,6 +145,7 @@ nav img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: red;
 }
 
 .card {
@@ -153,7 +154,7 @@ nav img {
   max-width: 35rem;
   max-height: 32.2rem;
   border: none;
-  margin: 1.5rem;
+  margin: 1rem;
   margin-bottom: 6rem;
   border-radius: 1.5rem;
   padding: 0 3.2rem 4rem 3.2rem;
